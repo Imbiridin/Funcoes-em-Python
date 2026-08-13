@@ -1,0 +1,34 @@
+class Carro_1:
+    def __init__(self, modelo, marca, ano, placa):
+        self.modelo = modelo 
+        self.marca = marca
+        self.ano = ano 
+        self.placa = placa
+
+    def get_modelo(self):
+        return self.modelo
+
+    def get_marca(self):
+        return self.marca
+
+    def get_ano(self):
+        return self.ano
+
+    def get_placa(self):
+        return self.placa
+
+    def exibir(self):
+        print(f"O Modelo: {self.modelo}")
+        print(f"A Marca {self.marca}")
+        print(f"O Ano: {self.ano}")
+        print(f"A Placa: {self.placa}")
+
+    def texto(self):
+        print(f"O carro de modelo {self.modelo} da marca {self.marca} do ano{self.ano} com a numeração da placa {self.placa}")
+
+
+carro = Carro_1("Marea Turbo", "Fiat", "2003", "FDP-0171")
+
+carro.exibir()
+
+carro.texto()
