@@ -15,6 +15,10 @@ class Conta:
     def get_saldo(self):
         return self.__saldo
 
+
+    def depositar(self):
+        if saldo > 0:
+
     def sacar(self, valor):
         limite_disponivel = self.__saldo + self.__cheque_especial
 
