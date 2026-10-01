@@ -1,7 +1,7 @@
 class Pedido:
     """Esta classe representa um nodo de um estrutura duplamente encadeada"""
     
-    def __init__(self,pedido = 100, cliente = 0, prato = 0, proximo_nodo=None):
+    def __init__(self, pedido = 100, cliente = 0, prato = 0, proximo_nodo=None):
         self.pedido = pedido
         self.cliente = cliente
         self.prato = prato
@@ -20,7 +20,7 @@ class Fila:
     def __repr__(self):
         return "(" + str(self.primeiro) + ")"
     
-    def insere(self,pedido, cliente, prato):
+    def insere(self, pedido,cliente, prato):
         """Insere um elemento no final da lista"""
         
         #Cria um novo nodo com o dado a ser armazenado

@@ -10,7 +10,7 @@ while(continuar):
             numero = int(input("Informe o número do pedido: "))
             cliente = input("Informe o nome do cliente: ")
             prato = input("Digite o nome do produto: ")
-            pedido.insere(numero,cliente,prato)
+            pedido.insere(numero, cliente, prato)
             print(pedido)
         case 2:
             pedido.remove()
