@@ -10,5 +10,5 @@ public class Main {
         ft.setNumero(Integer.parseInt(numero_T));
 
         JOptionPane.showMessageDialog(null, ft.calcularFatorial(ft.getNumero()));
-    },
+    }
 }
